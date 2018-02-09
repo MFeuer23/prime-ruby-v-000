@@ -7,6 +7,7 @@ def prime?(int)
     range.none? do |x|
     int % x == 0
   end
+end
   
   
 end
