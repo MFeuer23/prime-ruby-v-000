@@ -8,7 +8,7 @@ def prime?(int)
     return true
   elsif range.all? {|x| int % 2 != 0}
     return true
-  elseif range.all? {|x| int % x != 0}
+  elsif range.all? {|x| int % x != 0}
     return true
   end
 
