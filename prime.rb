@@ -3,7 +3,7 @@
 def prime?(int)
   if int <= 1
     return false
-  elsif int == 2
+  elsif int == 2 || int == 3
     return true
   elsif
     range = (1...int).to_a
