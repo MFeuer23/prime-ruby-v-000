@@ -15,7 +15,7 @@ if int <= 1
 #  end
 
 (2..int).each { |i| 
-if num % i == 0 && i < num
+if int % i == 0 && i < int
     return false
   end
   }
