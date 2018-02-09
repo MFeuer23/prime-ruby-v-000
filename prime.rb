@@ -11,7 +11,7 @@ def prime?(int)
       return false if int % x == 0
     end
     
-  else
+ 
     
   end
   
