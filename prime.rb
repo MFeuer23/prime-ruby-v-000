@@ -10,9 +10,9 @@ def prime?(int)
     range.any? do |x|
       int % x == 0
     end
-    return false
+    
   else
-    return true
+    
   end
   
   
