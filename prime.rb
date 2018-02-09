@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(int)
-  if int <= 0 
+  if int <= 1
     return false
-  elsif int == 1 || int == 2
+  elsif int == 2
     return true
   else
     range = (1...int).to_a
