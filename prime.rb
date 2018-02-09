@@ -11,7 +11,7 @@ def prime?(int)
   elsif range.all? {|x| int % x != 0}
     return true
   else
-    return false
+    
   end
 
 end
