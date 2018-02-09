@@ -6,10 +6,10 @@ def prime?(int)
     return false
   elsif int == 2 || int == 3
     return true
-  elsif range.all? {|x| int % x != 0}
+  elsif range.all? {|x| int % 2 != 0}
     return true
-  elsif range.any? {|x| int % x == 0}
+  else
     return false
-  end
+    
 
 end
