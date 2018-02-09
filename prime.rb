@@ -8,7 +8,7 @@ def prime?(int)
   elsif
     range = (1...int).to_a
     range.all? do |x|
-      return true if int % x != 0
+      int % x != 0
     end
     
  
