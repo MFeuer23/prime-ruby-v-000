@@ -14,11 +14,11 @@ if int <= 1
     
 #  end
 
-(2..int).each { |i| 
+(2..int).each do |i| 
 if int % i == 0 && i < int
     return false
   end
-  }
+end
   true
   
 
