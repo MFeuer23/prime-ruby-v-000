@@ -19,6 +19,6 @@ if num % i == 0 && i < num
   end
   }
   true
-  end
+  
 
 end
