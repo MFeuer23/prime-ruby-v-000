@@ -6,9 +6,12 @@ def prime?(int)
     return true
   elsif
     range = (1...int).to_a
-    range.none? do |x|
+    range.any? do |x|
       int % x == 0
     end
+    return false
+  else
+    return true
   end
   
   
