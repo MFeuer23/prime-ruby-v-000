@@ -7,7 +7,7 @@ def prime?(int)
   elsif int == 2 || int == 3
     return true
   elsif range.each {|i| return false if int % i == 0}
-  elsif range.all? {|i| return true if 
+    true
     
   
     
