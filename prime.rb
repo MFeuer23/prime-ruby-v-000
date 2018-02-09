@@ -4,7 +4,7 @@ def prime?(int)
     return false
   elsif int == 2
     return true
-  else
+  elsif
     range = (1...int).to_a
     range.none? do |x|
       int % x == 0
