@@ -7,8 +7,8 @@ def prime?(int)
     return true
   elsif
     range = (1...int).to_a
-    range.any? do |x|
-      int % x == 0
+    range.each do |x|
+      return false if int % x == 0
     end
     
   else
