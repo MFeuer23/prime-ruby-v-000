@@ -1,7 +1,9 @@
 # Add  code here!
-def prime?(x)
-  range = (1..x).to_a
-  range.any?
+def prime?(int)
+  range = (1...int).to_a
+  range.any? do |x|
+    int % x == 0
+  end
   
   
 end
